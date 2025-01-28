@@ -30,7 +30,7 @@ proposer.
 Finally, normal L2 nodes only run an L2 node in normal mode, and an L2 execution engine.
 
 L2 nodes are also expected to run a fault detector / challenger agent. The sequencer is expected to
-run it too, as a form of sanity checking. roll-op does not support yet, and we will not explain the
+run it too, as a form of sanity checking. roll-op does not support it yet, and we will not explain the
 challenge flow in this document.
 
 ## OP Stack Architecture / Data Flow
@@ -51,7 +51,7 @@ service that actually receives these transactions.
 
 The L2 engine is a modified Ethereum execution layer client. Curently roll-op support op-geth, with
 more to come (op-erigon, op-reth and Hildr are other options). You can see the full list of
-modification to geth [here][geth-diff], and to Erigon [here][erigon-diff]. Essentially, these
+modifications to geth [here][geth-diff], and to Erigon [here][erigon-diff]. Essentially, these
 modifications implement new L2 transaction types, and support communicationation with the L2 node.
 
 [geth-diff]: https://op-geth.optimism.io/
