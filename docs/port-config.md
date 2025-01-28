@@ -2,7 +2,7 @@
 
 Each service must listen to some ports. This is configured in roll-op's config in two ways:
 
-- Listen ports for each service (in its own `Config` superclass, e.g. [`L2NodeConfig`])
+- Listen to ports for each service (in its own `Config` superclass, e.g. [`L2NodeConfig`])
 - Public port a which a service can reach another one, in the [`NetworkConfig`] superclass, e.g.
   `l2_node_rpc_port`.
 
@@ -20,7 +20,7 @@ additional [example configs].
 
 [example configs]: ../config/examples.py
 
-## Default Port Assigment
+## Default Port Assignment
 
 The default port mapping uses the same port as the devnet configuration in the Optimism monorepo,
 whenever possible.
@@ -44,7 +44,7 @@ whenever possible.
 
 We do not enable the pprof server in any config, but it listens on the 6060 port by default.
 
-# OP Doc Port Assigment
+# OP Doc Port Assignment
 
 When following [the OP stack "Getting Started" guide][getting-started], the following ports are used:
 (The L1 and L2 engine ports are inverted, and the other components are numbered differently.)
