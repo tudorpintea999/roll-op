@@ -2,7 +2,7 @@
 
 Under development!
 
-This work is support by an
+This work is supported by an
 [Optimism governance grant](https://app.charmverse.io/op-grants/proposals?id=a6e6bfb8-75bd-41bd-acb1-618c3c62e667).
 
 roll-op (formerly simple-op-stack-rollup) is an open-source script that makes it trivial for any
