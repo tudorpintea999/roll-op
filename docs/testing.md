@@ -12,7 +12,7 @@ docker pull ubuntu
 docker run -ti --rm --platform linux/arm64 ubuntu /bin/bash
 ```
 
-Note: `-ti` means interactive and keep stdout attched, `--rm` means removes the container after
+Note: `-ti` means interactive and keep stdout attached, `--rm` means removes the container after
 it stops.
 
 Can be linux/amd64 for those who have this architecture (I have a M1 Mac).
