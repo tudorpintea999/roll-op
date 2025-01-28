@@ -1,6 +1,6 @@
 # Logging Policy
 
-The default logging policy for services (process that are supposed to keep running) is to rotate the
+The default logging policy for services (process that is supposed to keep running) is to rotate the
 logs once they reach 3M in size. This can be configured via the `logrotate_max_size` option (takes a
 number followed by a `k`/`M`/`G` suffix).
 
